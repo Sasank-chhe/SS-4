@@ -8,7 +8,7 @@ import requests
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from SS4 import ss4buy
+    from SS4 import
     ss4buy()
 elif bit == '32bit':
     from SS432 import ss4buy
